@@ -32,4 +32,7 @@ class Solution {
         return new int[] {};        
     }
 }
+
+
+Sort and use 2 pointer technique 
 */
