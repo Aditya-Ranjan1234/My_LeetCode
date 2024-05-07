@@ -56,7 +56,22 @@ class Solution {
     }
 }
 
+/*
+Manacher's Algorithm , Preprocessing O(n) then logic O(1)
 
+https://www.youtube.com/watch?v=ei7qghJEj4Y&t=958s
+
+pre- odd and even cetres behave differently "aba" and "abba"
+to fix add # in between every character #a#b#a# and #a#b#b#a#  (2m+1) adding n+1 # for n characters , now only odd centres
+
+create a counter array cheack left right of each character
+#a#b#a#
+1213121 similar char on both sides
+
+p[i]=max(0,min(r-i,r+l-i))
+
+bounding box- bigger palin
+*/
 
 /*
 
