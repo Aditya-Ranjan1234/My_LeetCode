@@ -1,0 +1,2 @@
+Comparable - single logic
+Comparator - multiple logic
